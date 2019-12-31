@@ -1,0 +1,3 @@
+name x y component_height holes_per_component mm_to_hole default_rotation
+HPCR0402F220KK9 22.422mm 3.22mm 2mm 2 324.33mm 320
+AECR0603F1K10K9 22.422mm 5.78mm 1.8mm 1 45.55mil 90

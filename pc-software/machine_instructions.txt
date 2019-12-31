@@ -1,0 +1,22 @@
+PNP Accepted Instructions over Serialport
+"xmove 4.235" // Move x-axeln till pos 4.235mm
+"ymove 4.235" // Move z-axeln till pos 4.235mm
+"zmove 4.235" // Move z-axeln till höjd 4.235mm
+"startsuction" // Start suction
+"stopsuction" // Stop suction
+"rotate 90" // Rotera huvudet clockwise(>0), 90 grader
+"calibrate"
+
+Goal is to get a list of instructions that will pick
+and place all components on to the board, like this:
+[
+    "calibrate"
+    "xmove 4.235"
+    "ymove 4.235"
+    "startsuction"
+    "zmove 4.235"
+    "xmove 4.235"
+    "rotate 0 90"
+    "ymove 4.235"
+    "stopsuction"
+]
